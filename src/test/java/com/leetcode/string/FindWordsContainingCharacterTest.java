@@ -1,6 +1,5 @@
-package com.leetcode.stack;
+package com.leetcode.string;
 
-import com.leetcode.string.FindWordsContainingCharacter;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
