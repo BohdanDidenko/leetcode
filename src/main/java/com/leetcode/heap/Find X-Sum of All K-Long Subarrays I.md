@@ -1,4 +1,5 @@
 # 3318. Find X-Sum of All K-Long Subarrays I
+
 You are given an array nums of n integers and two integers k and x.
 
 The x-sum of an array is calculated by the following procedure:
@@ -9,8 +10,6 @@ Calculate the sum of the resulting array.
 Note that if an array has less than x distinct elements, its x-sum is the sum of the array.
 
 Return an integer array answer of length n - k + 1 where answer[i] is the x-sum of the subarray nums[i..i + k - 1].
-
-
 
 ## Example 1:
 
@@ -33,8 +32,6 @@ For subarray [2, 2, 3, 4, 2, 3], only elements 2 and 3 are kept in the resulting
 **Explanation:**
 
 Since k == x, answer[i] is equal to the sum of the subarray nums[i..i + k - 1].
-
-
 
 ## Constraints:
 

@@ -1,4 +1,5 @@
 # 2500. Delete Greatest Value in Each Row
+
 You are given an m x n matrix grid consisting of positive integers.
 
 Perform the following operation until grid becomes empty:
@@ -26,7 +27,6 @@ Return the answer after performing the operations described above.
 **Explanation:** The diagram above shows the removed values in each step.
 - In the first operation, we remove 10 from the first row. We add 10 to the answer.
   The final answer = 10.
-
 
 ## Constraints:
 

@@ -1,4 +1,5 @@
 # 3211. Generate Binary Strings Without Adjacent Zeros
+
 You are given a positive integer n.
 
 A binary string x is valid if all substrings of x of length 2 contain at least one "1".

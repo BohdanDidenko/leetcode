@@ -1,4 +1,5 @@
-1598. Crawler Log Folder
+# 1598. Crawler Log Folder
+
 The Leetcode file system keeps a log each time some user performs a change folder operation.
 
 The operations are described below:
@@ -12,28 +13,22 @@ The file system starts in the main folder, then the operations in logs are perfo
 
 Return the minimum number of operations needed to go back to the main folder after the change folder operations.
 
-
-
-Example 1:
-
-
+### Example 1:
 
 Input: logs = ["d1/","d2/","../","d21/","./"]
 Output: 2
 Explanation: Use this change folder operation "../" 2 times and go back to the main folder.
-Example 2:
 
+### Example 2:
 
+**Input:** logs = ["d1/","d2/","./","d3/","../","d31/"]
+**Output:** 3
+**Example:** 3
 
-Input: logs = ["d1/","d2/","./","d3/","../","d31/"]
-Output: 3
-Example 3:
+**Input:** logs = ["d1/","../","../","../"]
+**Output:** 0
 
-Input: logs = ["d1/","../","../","../"]
-Output: 0
-
-
-Constraints:
+### Constraints:
 
 1 <= logs.length <= 103
 2 <= logs[i].length <= 10

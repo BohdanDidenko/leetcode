@@ -8,7 +8,6 @@ NeighborSum(int [][]grid) initializes the object.
 int adjacentSum(int value) returns the sum of elements which are adjacent neighbors of value, that is either to the top, left, right, or bottom of value in grid.
 int diagonalSum(int value) returns the sum of elements which are diagonal neighbors of value, that is either to the top-left, top-right, bottom-left, or bottom-right of value in grid.
 
-
 ### Example 1:
 
 **Input:**
@@ -25,7 +24,6 @@ The adjacent neighbors of 4 are 1, 3, 5, and 7.
 The diagonal neighbors of 4 are 0, 2, 6, and 8.
 The diagonal neighbor of 8 is 4.
 
-
 ### Example 2:
 
 **Input:**
@@ -38,11 +36,8 @@ The diagonal neighbor of 8 is 4.
 
 **Explanation:**
 
-
-
 The adjacent neighbors of 15 are 0, 10, 7, and 6.
 The diagonal neighbors of 9 are 4, 12, 14, and 15.
-
 
 ### Constraints:
 
